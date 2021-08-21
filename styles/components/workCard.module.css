@@ -1,0 +1,57 @@
+.whole {
+    background-color: white;
+    height: 450px;
+    width: 280px;
+    margin: 10px;
+    display: block;
+    border-radius: 7px;
+    padding: 0 10px;
+    border: 1px #BBB solid;
+}
+.for_flex {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.img_flame {
+    margin-top: 18px;
+    width: 100%;
+    height: 147px;
+    background-color: #BBB;
+    padding: 2px;
+}
+.thumbnail {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 7px;
+}
+.genre {
+    display: block;
+    margin: 10px 0;
+}
+.genre_title {
+    font-weight: bold;
+}
+.description {
+    margin: 0;
+    font-size: 15px;
+}
+.created_at {
+    margin: 0;
+}
+.info_line {
+    padding: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.ico:hover {
+    color: #455;
+}
