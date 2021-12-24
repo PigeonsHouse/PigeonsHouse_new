@@ -24,7 +24,7 @@ function WorkCard(props: Props) {
 						<p className={style.created_at}>製作期間: {props.info.created_at}</p>
 						<div className={style.info_line}>
 							{props.info.url?(
-								<a href={props.info.url} target="_blank"><FontAwesomeIcon icon={faWindowRestore} className={style.ico} size="2x" /></a>
+								<a href={props.info.url}><FontAwesomeIcon icon={faWindowRestore} className={style.ico} size="2x" /></a>
 							):(
 								<FontAwesomeIcon icon={faWindowRestore} size="2x" color="#DDD" />
 							)}

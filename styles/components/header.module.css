@@ -9,7 +9,14 @@
     color: white;
     margin: 0;
     display: inline;
+    word-break: break-all;
 }
 .ico {
     margin: 0 10px;
+}
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
