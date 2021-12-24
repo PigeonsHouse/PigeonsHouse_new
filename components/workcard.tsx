@@ -4,11 +4,11 @@ import { Work } from "../types/work.type"
 import style from "../styles/components/workCard.module.css"
 
 interface Props {
-    info: Work;
+	info: Work;
 }
 
 function WorkCard(props: Props) {
-	return(
+	return (
 		<>
 			<div className={style.whole}>
 				<div className={style.for_flex}>
@@ -23,19 +23,19 @@ function WorkCard(props: Props) {
 					<div>
 						<p className={style.created_at}>製作期間: {props.info.created_at}</p>
 						<div className={style.info_line}>
-							{props.info.url?(
+							{props.info.url ? (
 								<a href={props.info.url}><FontAwesomeIcon icon={faWindowRestore} className={style.ico} size="2x" /></a>
-							):(
+							) : (
 								<FontAwesomeIcon icon={faWindowRestore} size="2x" color="#DDD" />
 							)}
-							{props.info.download_url?(
-								<a href={props.info.download_url} target="_blank"><FontAwesomeIcon icon={faFileDownload} className={style.ico} size="2x" /></a>
-							):(
+							{props.info.download_url ? (
+								<a href={props.info.download_url} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFileDownload} className={style.ico} size="2x" /></a>
+							) : (
 								<FontAwesomeIcon icon={faFileDownload} size="2x" color="#DDD" />
 							)}
-							{props.info.source_url?(
-								<a href={props.info.source_url} target="_blank"><FontAwesomeIcon icon={faCode} className={style.ico} size="2x" /></a>
-							):(
+							{props.info.source_url ? (
+								<a href={props.info.source_url} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faCode} className={style.ico} size="2x" /></a>
+							) : (
 								<FontAwesomeIcon icon={faCode} size="2x" color="#DDD" />
 							)}
 						</div>

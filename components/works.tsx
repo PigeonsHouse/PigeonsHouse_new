@@ -8,19 +8,19 @@ function Works() {
   const [works, setWorks] = useState<typeWorks>([]);
   const getWorks = () => {
     axios.get('/api/works')
-    .then((res)=>{
-      setWorks(res.data);
-    })
+      .then((res) => {
+        setWorks(res.data);
+      })
   }
   useEffect(() => {
     getWorks();
   }, []);
-  return(
+  return (
     <div className={style.whole}>
       <h2 className={style.title}>Works</h2>
       <div className={style.cards}>
         {works.map((work) => {
-          return <WorkCard info={work}/>
+          return <WorkCard info={work} key={work.name} />
         })}
       </div>
     </div>
