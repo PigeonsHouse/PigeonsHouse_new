@@ -49,17 +49,17 @@ export default (req: any, res: NextApiResponse) => {
             description: "Discord上で作業の開始・終了を宣言すると時間を計測して進捗を記録してくれるBot．月始めに先月の総作業量を報告してくれる．",
             url: "https://qiita.com/PigeonsHouse/items/9d86e35dbb6550d8f853",
             download_url: "https://discord.com/api/oauth2/authorize?client_id=821046992460316733&permissions=0&scope=bot",
-            source_url: "https://github.com/PigeonsHouse/sintyokuBot",
+            source_url: "https://github.com/PigeonsHouse/ShinchokuChanBot",
             created_at: "2021年3,4月",
         },
         {
             name: "ロックマン.EXE Bot",
-            thumbnail: "https://mastodon.compositecomputer.club/system/accounts/avatars/000/002/398/original/8d44cff7b58e9ae0.png",
+            thumbnail: "/rockman.png",
             genre: "MastodonBot",
             description: "C3部内のSNS，Mastodon内で稼働しているBot．C3部員の生活に役立ったり立たなかったりする機能が搭載している．",
             url: "https://mastodon.compositecomputer.club/@Rockmanexe",
             download_url: null,
-            source_url: null,
+            source_url: "https://github.com/PigeonsHouse/rockman_exe_bot",
             created_at: "2020年9月",
         },
         {
@@ -81,6 +81,15 @@ export default (req: any, res: NextApiResponse) => {
             download_url: null,
             source_url: null,
             created_at: "2021年6月",
+        },
+        {
+            name: "task_burner",
+            thumbnail: "https://ptera-publish.topaz.dev/project/01FQ7GFX3DE67RQVPS7BQS1QV6.png",
+            genre: "backend",
+            description: "ハックツハッカソンアンキロカップで作成した作品．タスクが溜まると温度が上がっていき晒されるタスク管理アプリ．バックエンドを担当．フロントエンドは以下のTopazのページから．",
+            url: "https://topaz.dev/projects/c4438719fb8b9941e8e3",
+            source_url: "https://github.com/hackz-hackathon-ankylo/task_burner_backend",
+            created_at: "2021年12月"
         },
     ]);
 }
