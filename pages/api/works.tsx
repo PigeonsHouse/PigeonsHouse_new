@@ -53,7 +53,7 @@ export default (req: any, res: NextApiResponse) => {
         },
         {
             name: "鳩屋敷Bot",
-            thumbnail: "https://mastodon.compositecomputer.club/system/accounts/avatars/000/005/580/original/aef9c28c66c78da4.png",
+            thumbnail: "https://s3.ap-northeast-1.wasabisys.com/mastodondb/accounts/avatars/000/005/580/original/aef9c28c66c78da4.png",
             genre: "MastodonBot",
             description: "製作者である鳩屋敷の投稿を全て学習させ鳩屋敷っぽい投稿をするBot．深層学習に興味を持ち，GPT2のファインチューニングで試しに作ってみた．",
             url: "https://mastodon.compositecomputer.club/@hatoBot",
@@ -125,16 +125,6 @@ export default (req: any, res: NextApiResponse) => {
             download_url: null,
             source_url: "https://github.com/PigeonsHouse/rockman_exe_bot",
             created_at: "2020年9月",
-        },
-        {
-            name: "0.0046%の確率でポケモンを捕まえるサトシBot",
-            thumbnail: "https://mastodon.compositecomputer.club/system/accounts/avatars/000/004/289/original/66d097ff94b6995f.jpg",
-            genre: "MastodonBot",
-            description: "C3部内のSNS，Mastodon内で稼働しているBot．Botの名前の通り．約2.5ヶ月に1度ポケモンをゲットする確率になっている．",
-            url: "https://mastodon.compositecomputer.club/@pokeget",
-            download_url: null,
-            source_url: null,
-            created_at: "2021年1月",
         },
     ]);
 }
