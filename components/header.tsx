@@ -11,7 +11,7 @@ function Header() {
       </a>
       <div className={style.icons}>
         <a href="https://twitter.com/PigeonsHouse" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTwitter} className={style.ico} size="2x" color="#fff" /></a>
-        <a href="https://mastodon.compositecomputer.club/@Pigeon_house2020" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faMastodon} className={style.ico} size="2x" color="#fff" /></a>
+        <a href="https://qiita.com/PigeonsHouse" target="_blank" rel="noreferrer"><img src="/qiita.png" height="32px"></img></a>
         <a href="https://github.com/PigeonsHouse" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} className={style.ico} size="2x" color="#fff" /></a>
       </div>
     </div>
