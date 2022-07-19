@@ -22,6 +22,15 @@ export default (req: any, res: NextApiResponse) => {
             created_at: "2022年3月"
         },
         {
+            name: "OnakaAPI",
+            thumbnail: "https://topaz.dev/_next/image?url=https%3A%2F%2Fptera-publish.topaz.dev%2Fproject%2F01G86RXXJ6AM3CZAVPA3DHFFED.png&w=1920&q=75",
+            genre: "Web",
+            description: "先輩の背中ハッカソン vol.2の作品．バックエンド，インフラ，フロントのCSS部分を担当．シンプルなSNSとなっている．詳細はTopazのページから．",
+            url: "https://topaz.dev/projects/6b6081da16f2c2be43d3",
+            source_url: "https://github.com/PigeonsHouse/OnakaAPI",
+            created_at: "2022年7月"
+        },
+        {
             name: "Magic Adventure(共同制作)",
             thumbnail: "https://raw.githubusercontent.com/PigeonsHouse/red-action/master/Assets/Sprites/OP.png",
             genre: "ゲーム",
