@@ -18,7 +18,7 @@ export default (req: any, res: NextApiResponse) => {
             genre: "backend",
             description: "Open Hack U 2021 Online Vol.4で作成したアプリケーションのバックエンドを担当．WebSocketでリアルタイムな通信が可能．",
             url: "https://emom.ee",
-            source_url: "https://github.com/hackz-hackathon-ankylo/task_burner_backend",
+            source_url: "https://github.com/Kyutech-C3/EmoMee-backend",
             created_at: "2022年3月"
         },
         {
