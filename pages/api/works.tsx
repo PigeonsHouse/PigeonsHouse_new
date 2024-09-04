@@ -1,10 +1,10 @@
 import { NextApiResponse } from 'next'
 
-export default (req: any, res: NextApiResponse) => {
+const Api = (_: any, res: NextApiResponse) => {
     res.status(200).json([
         {
             name: "ToyBox",
-            thumbnail: "https://s3.ap-northeast-2.wasabisys.com/toyboxdev/assets/image/07997d14-808c-4994-8677-92c4e9258341/origin.png",
+            thumbnail: "https://raw.githubusercontent.com/Kyutech-C3/ToyBox-frontend/develop/assets/images/ToyBoxLogo.png",
             genre: "backend",
             description: "C3部員の作品を投稿できるプラットフォーム．ゲーム(zip)，3Dモデル(gltf,fbx)，音声，動画，画像など様々な作品が投稿できる．",
             url: "https://toybox.compositecomputer.club",
@@ -34,7 +34,7 @@ export default (req: any, res: NextApiResponse) => {
         },
         {
             name: "NicoCommeDon",
-            thumbnail: "https://shared-vps.compositecomputer.club/media/images/system/asset-1.png",
+            thumbnail: "https://raw.githubusercontent.com/PigeonsHouse/NicoCommeDon/main/renderer/public/images/logo.png",
             genre: "デスクトップアプリ",
             description: "ニコニコのコメントみたいにマストドンのトゥートが流れるLTサポートツール．WindowsとLinuxに対応．",
             url: "https://qiita.com/PigeonsHouse/items/2ec02d570e0c8be69ae5",
@@ -44,7 +44,7 @@ export default (req: any, res: NextApiResponse) => {
         },
         {
             name: "EmoMee",
-            thumbnail: "https://emom.ee/_nuxt/img/logo.67aaeb6.png",
+            thumbnail: "https://raw.githubusercontent.com/Kyutech-C3/EmoMee-frontend/main/assets/logo.png",
             genre: "backend",
             description: "Open Hack U 2021 Online Vol.4で作成したアプリケーションのバックエンドを担当．WebSocketでリアルタイムな通信が可能．",
             url: "https://emom.ee",
@@ -177,3 +177,5 @@ export default (req: any, res: NextApiResponse) => {
         },
     ]);
 }
+
+export default Api;
